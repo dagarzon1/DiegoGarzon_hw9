@@ -7,8 +7,8 @@ int fibonacci(int n);
 float get_time(int n);
 int main()
 {
-// Iteracion para encontrar los primero 35 numeros
-for (int i=1;i<36;i++)
+// Iteracion para encontrar los primeros 35 numeros
+for (int i=0;i<36;i++)
 {
 	// El tiempo por cada iteracion
 	float tm=get_time(i);
@@ -32,6 +32,7 @@ int fibonacci(int n)
 	//retornar el caso recursivo
 	return fibonacci(n-1)+fibonacci(n-2);
 }
+//Funcion para calcular el tiempo pasado
 float get_time(int n)
 {
 // variable de tiempo
