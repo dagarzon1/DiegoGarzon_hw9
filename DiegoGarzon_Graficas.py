@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 
 #Cargar los datos de python y cpp
 
-data_py=np.loadtxt("times_python.csv", delimeter=",")
-data_cpp=np.loadtxt("times_cpp.csv", delimter=",")
+data_py=np.loadtxt("times_python.csv", delimiter=",")
+data_cpp=np.loadtxt("times_cpp.csv", delimiter=",")
 
 #Graficar los datos
 
@@ -15,7 +15,7 @@ plt.plot(data_cpp[:,0],data_cpp[:,1], label="c++")
 
 plt.xlabel("Iteration number")
 plt.ylabel("Computational time (s)")
-plt.legend()
+plt.legend(loc=2)
 plt.title("cpp vs python")
 
 #Guardar la grafica

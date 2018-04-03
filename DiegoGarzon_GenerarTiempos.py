@@ -36,8 +36,8 @@ def get_time(n):
 
 	return t1
 	
-#Iteracion para determinar los primeros 35 digitos
-for i in range(36):
+#Iteracion para determinar los primeros 40 digitos
+for i in range(41):
 
 	#Imprimir los datos de tiempo e iteracion
 	print i, ",", get_time(i)

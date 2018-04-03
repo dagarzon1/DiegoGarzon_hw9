@@ -9,7 +9,7 @@ int main()
 {
 // Iteracion para encontrar los primeros 35 numeros
 
-for (int i=0;i<36;i++)
+for (int i=0;i<41;i++)
 {
 	// El tiempo por cada iteracion
 
