@@ -7,21 +7,22 @@ int fibonacci(int n);
 float get_time(int n);
 int main()
 {
-// Iteracion para encontrar los primeros 35 numeros
 
-for (int i=0;i<41;i++)
-{
-	// El tiempo por cada iteracion
+	// Iteracion para encontrar los primeros 35 numeros
 
-	float tm=get_time(i);
+	for (int i=0;i<36;i++)
+	{
+		// El tiempo por cada iteracion
 
-	// Imprimir el valor de iteracion y el tiempo que tardo
+		float tm=get_time(i);
 
-	cout<<i<<","<<tm<<endl;
+		// Imprimir el valor de iteracion y el tiempo que tardo
+
+		cout<<i<<","<<tm<<endl;
+	}
+	return 0;
 }
 
-return 0;
-}
 //Funcion recursiva de fibonacci
 
 int fibonacci(int n)
